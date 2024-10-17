@@ -1,0 +1,110 @@
+.gold-ad-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(45, 77%, 83%);
+    padding: 20px;
+    background: url('../../assets/gold8.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.gold-card {
+    background: linear-gradient(145deg, #c7984f, #d4af37);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+.description {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.gold-btn {
+    background-color: #ffd700;
+    color: #333;
+}
+
+.whatsapp-btn {
+    background-color: #25D366;
+    color: #fff;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 215, 0, 0.9);
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+    .gold-ad-container {
+        padding: 10px;
+        height: auto;
+    }
+
+    .gold-card {
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1.1rem;
+    }
+
+    .description {
+        font-size: 1.2rem;
+    }
+
+    .hero-text {
+        font-size: 1em;
+        padding: 15px;
+    }
+}
+
