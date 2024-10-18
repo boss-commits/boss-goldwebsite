@@ -6,7 +6,7 @@ import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const Navbar = () => {
-  const phoneNumber = '9843247834';  // Your WhatsApp number
+  const phoneNumber = '+919600848215';  // Your WhatsApp number
 
   const handleWhatsAppClick = (e) => {
     e.preventDefault();
@@ -28,7 +28,7 @@ const Navbar = () => {
         </li>
         <li className='navLink'>
           <a href="tel:9843247834">
-            <FontAwesomeIcon icon={faPhoneAlt} /> Call - 9843247834
+            <FontAwesomeIcon icon={faPhoneAlt} /> Call - +919843247834
           </a>
         </li>
         <li className='navLink'>Buy/Sell Gold for Cash</li>

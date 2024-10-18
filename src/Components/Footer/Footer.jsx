@@ -6,6 +6,7 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
+  const whatsAppNo ='+919600848215'
   const phoneNumber = '9843247834';
   const email = 'farookali7711@gmail.com'; 
 
@@ -13,8 +14,8 @@ const Footer = () => {
     e.preventDefault();
     const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     const whatsappURL = isMobile
-      ? `whatsapp://send?phone=${phoneNumber}` 
-      : `https://web.whatsapp.com/send?phone=${phoneNumber}`;
+      ? `whatsapp://send?phone=${whatsAppNo}` 
+      : `https://web.whatsapp.com/send?phone=${whatsAppNo}`;
     window.open(whatsappURL, '_blank');
   };
 
