@@ -21,7 +21,7 @@ const Footer = () => {
 
   const handleCallClick = () => {
     window.open(`tel:${phoneNumber}`);
-  };
+  }
 
  
   const handleMailClick = () => {
